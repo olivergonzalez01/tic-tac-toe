@@ -45,7 +45,7 @@ class Main {
             if (line.charAt(6) == line.charAt(2)) {
                 if (line.charAt(6) == 'X') {
                     Xwin = true;
-                } else if (line.charAt(0) == 'O'){
+                } else if (line.charAt(6) == 'O'){
                     Owin = true;
                 }
             }
